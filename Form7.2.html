@@ -1,0 +1,60 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>Employee Table</title>
+</head>
+<body style="background-color:skyblue">
+<table border="1" >
+<form>
+<colgroup>
+<col align="center">
+<col>
+</colgroup>
+<tr>
+<th>Name</th>
+<th><input type="text" name="name"   tabindex="2" maxlength="30"></th>
+</tr>
+
+<tr>
+<th>Employee Code</th>
+<th><input type="text" name="empcode"   tabindex="2" maxlength="30"></th>
+</tr>
+<tr>
+<th>Department</th>
+<th><input type="radio" name="s-grp" value="grp1"> Admin
+<input type="radio" name="s-grp" value="grp2" checked> HR
+<input type="radio" name="s-grp" value="grp3"> Technical
+<input type="radio" name="s-grp" value="oth"> Accounts</th>
+</tr>
+<tr>
+<th>Date Of Joining</th>
+<th><input type="date" name="date"></th>
+</tr>
+<tr>
+<th>Address</th>
+<th><textarea name="addr" Rows="5" cols="40" tabindex="0" accesskey="A">Enter ur address </textarea></th>
+</tr>
+<tr>
+<th>Training Program Attended</th>
+<th><input type="checkbox" name="s-cobol"> HTML/DHTML<br>
+<input type="checkbox" name="s-idms" checked> Java<br>
+<input type="checkbox" name="s-java"> Client/Server<br>
+<input type="checkbox" name="s-java"> .NET</th>
+</tr>
+<tr>
+<th>Training Program need to attend</th>
+<th><select name="pref">
+<option value="JS">JavaScript </option>
+<option value="CORBA">CORBA </option>
+<option value="VB6">Visual Basic 6 </option>
+</select></th>
+</tr>
+<tr>
+<th>send the information to at</th>
+<th><a href="mailto:lnd@capgemini.com"><a></th>
+</tr>
+
+</form>
+</table>
+</body>
+</html>
